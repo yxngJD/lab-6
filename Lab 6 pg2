@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Joaquin Valley Town Hall</title>
+    <style>
+        /* CSS for making text big */
+        .big-text {
+            font-size: 24px;
+        }
+        
+        /* CSS for making text orange */
+        .orange-text {
+            color: orange;
+        }
+        
+        /* CSS for making specific speakers red */
+        .red-text {
+            color: red;
+        }
+        
+        /* CSS for making specific speakers gray */
+        .gray-text {
+            color: gray;
+        }
+        
+        /* CSS for making specific text black */
+        .black-text {
+            color: black;
+        }
+
+        /* CSS for center-aligning specific elements */
+        .center-text {
+            text-align: center;
+        }
+        
+        /* CSS for aligning specific elements to the left */
+        .left-text {
+            text-align: left;
+        }
+        
+        /* CSS for making text bold */
+        .bold-text {
+            font-weight: bold;
+        }
+
+        /* CSS for adding shadow to text */
+        .shadow-text {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        /* CSS for underlining text */
+        .underline-text {
+            text-decoration: none; /* Remove default underline */
+            border-bottom: 1px solid black; /* Add bottom border for underline effect */
+            display: inline-block; /* Ensure proper spacing */
+        }
+        
+        /* CSS for making text gray */
+        .gray-speaker {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="image-container">
+            <img src="https://www.facebook.com/photo/?fbid=571771808091705&set=a.571771774758375" alt="San Joaquin Valley Town Hall Image">
+            <h1 class="big-text orange-text center-text shadow-text">San Joaquin Valley Town Hall</h1>
+        </div>
+        <div class="center-container">
+            <p class="big-text black-text bold-text">Bringing cutting-edge speakers to the valley</p>
+        </div>
+        <h2 class="bold-text left-text">This season's guest speakers</h2>
+        <ul class="left-text">
+            <li class="underline-text">﻿﻿<span class="gray-text">October:</span> <span class="gray-speaker">Jeffrey Toobin</span></li>
+            <li class="underline-text">﻿﻿<span class="gray-text">November:</span> <span class="gray-speaker">Andrew Ross Sorkin</span></li>
+            <li class="underline-text">﻿﻿<span class="red-text">January:</span> Amy Chua</li>
+            <li class="underline-text">﻿﻿<span class="red-text">February:</span> Scott Sampson</li>
+            <li class="underline-text">﻿﻿<span class="red-text">March:</span> Carlos Fire</li>
+            <li class="underline-text">﻿﻿<span class="red-text">April:</span> Ronan Tynan</li>
+        </ul>
+        <p class="left-text big-text bold-text">Looking for a unique gift?</p>
+        <p class="left-text">Town Hall has the answer. For only $100, you can get a book of tickets for all of the remaining speakers. And the bargain includes a second book of tickets for a companion.</p>
+        <p class="left-text">Or, for $50, you can give yourself the gift of our speakers, and still get an extra ticket for a companion, but for just one of the events.</p>
+        <p>See you at the next show?</p>
+        <p class="left-text bold-text">Contact us by phone at (559) 555-1212 for ticket information.</p>
+    </header>
+    <footer class="left-text">
+        <p>© Copyright 2015 San Joaquin Valley Town Hall.</p>
+    </footer>
+</body>
+</html>

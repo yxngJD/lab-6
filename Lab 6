@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Halloween Store</title>
+    <style>
+        .welcome-text {
+            font-size: 24px; 
+        }
+        .store-header {
+            display: flex;
+            align-items: center;
+        }
+        #store-name {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header style="background-color: white; padding: 20px;">
+        <div class="store-header">
+            <img src="https://pngimg.com/uploads/pumpkin/pumpkin_PNG86679.png" alt="Pumpkin" style="width: 50px; height: 50px;">
+            <h1 id="store-name" style="color: orange; text-shadow: 2px 2px black;">The Halloween Store</h1>
+        </div>
+        <p style="font-weight: bold;">For the little Goblin in all of us!</p>
+        <p class="welcome-text" style="font-weight: bold;">Welcome to my site. Please come in and stay awhile.</p>
+        <p>I started this website because Halloween has always been my favorite holiday. But during the last year, I started selling some of my favorite Halloween products, and they've become quite popular.</p>
+        <p>If you click on the Personal link, you can browse my favorite Halloween pictures, stories, and films. And if you join my email list, I will keep you up-to-date on all things Halloween.</p>
+        <nav>
+            <ul>
+                <section id="Product categories">
+                    <h2>Product categories</h2>
+                    <li><a href="#" class="category">Props</a></li>
+                    <li><a href="#" class="category">Costumes</a></li>
+                    <li><a href="#" class="category">Special Effects</a></li>
+                    <li><a href="#" class="category">Masks</a></li>
+                    <li><a href="#" class="category">Personal</a></li>
+                </section>
+            </ul>
+        </nav>
+    </header>
+    <section id="guarantee">
+        <h2>My guarantee</h2>
+        <p>If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. No questions asked!</p>
+    </section>
+    <footer>
+        <p>© 2016 Ben Murach</p>
+    </footer>
+</body>
+</html>
+
